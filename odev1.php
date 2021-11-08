@@ -50,11 +50,11 @@
     }
 
     $Araç = new Araba(1,"Mercedes","S400d","White",2021);
-    echo "Araç id : $Araç->getId() <br> ";
-    echo "Araç markası : $Araç->getBrand() <br> ";
-    echo "Araç modeli : $Araç->getModelName() <br> ";
-    echo "Araç model yılı : $Araç->getModelYear() <br> ";
-    echo "Araç rengi : $Araç->getColor() <br> ";
+    echo "Araç id : {$Araç->getId()} <br> ";
+    echo "Araç markası : {$Araç->getBrand()} <br> ";
+    echo "Araç modeli : {$Araç->getModelName()} <br> ";
+    echo "Araç model yılı : {$Araç->getModelYear()} <br> ";
+    echo "Araç rengi : {$Araç->getColor()} <br> ";
    
     ?>
 </body>
