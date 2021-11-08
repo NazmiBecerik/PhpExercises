@@ -47,10 +47,13 @@
     }
     $DortIslem =new DortIslem(1,2);
 
-    echo "$DortIslem->{toplamaIslemi(3,4)}<br>";
-    echo "$DortIslem->{cikarmaIslemi(3,4)}<br>";
-    echo "$DortIslem->{carpmaIslemi(3,4)}<br";
-    echo "$DortIslem->{bolmeIslemi(3,4)}<br>";
+    echo $DortIslem->toplamaIslemi(3,4);
+    echo"<br>";
+    echo $DortIslem->cikarmaIslemi(3,4);
+    echo"<br>";
+    echo $DortIslem->carpmaIslemi(3,4);
+    echo"<br>";
+    echo $DortIslem->bolmeIslemi(3,4);
 
 
 
